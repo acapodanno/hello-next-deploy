@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.page{
+  @apply flex flex-col items-center justify-center	min-w-full min-h-screen	
+}
+
+.title{
+  @apply text-5xl text-pink-600 font-bold my-5	
+}
+.footer{
+  @apply fixed bottom-0 right-0 text-sm m-2
+}
+.navbar{
+  @apply sm:fixed sm:z-10 top-0 w-full text-center flex flex-col sm:flex-row gap-2 justify-center p-2 bg-white
+}
+.navitem{
+  @apply text-2xl cursor-pointer
+}
+.page-error-content{
+  @apply text-center
+}
+.text-error-page{
+  @apply text-pink-500
+}
+.button-catalog{
+  @apply transition-all duration-500 border border-pink-500 bg-white rounded-lg  p-2 hover:bg-pink-50
+}
