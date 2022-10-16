@@ -7,10 +7,10 @@ const Navbar: React.FC = () => {
       <Link href="/" passHref>
         <NavItem label="Home" />
       </Link>
-      <Link href="/catalog">
+      <Link href="/catalog" passHref>
         <NavItem label="Catalog" />
       </Link>
-      <Link href="/contacts" replace={true}>
+      <Link href="/contacts" passHref replace={true}>
         <NavItem label="Contacts" />
       </Link>
     </nav>
